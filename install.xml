@@ -23,7 +23,7 @@
             <li><?php echo $text_model; ?> <?php echo $model; ?></li>
             ]]></search>
             <add position="after"><![CDATA[
-            <li>SKU: <?php echo $sku; ?></li>
+            <li>SKU: <?php echo $sku; ?></li> <!-- para salir del paso es interesante pero recomiendo crear un nuevo campo para el traspaso de info de db a la integracion, pofque puedes complicar a quienes usen sku tanto basicamnte como para otras integraciones. las modif se harian en librery -->
             ]]></add>
         </operation>
     </file>
